@@ -1,0 +1,26 @@
+Dataset for multi-temporal RS images
+
+Data1: This dataset was taken on Western Australia, Australia by Landsat-8, and there are ﬁve
+       spectral bands (Band1, Band2, Band3, Band4, Band5) with a spatial resolution of 30 m in each temporal node.
+       The data size is 400 × 400 × 5 × 5.
+
+Data2: This dataset was taken on Tocantins, Brazil by Landsat-8, and there are ﬁve spectral bands (Band1,
+       Band2, Band3, Band4, Band5) with a spatial resolution of 30 m in each temporal node. 
+       The data size is 512 × 512 × 5 × 6.
+
+Data3: This dataset was taken on Arizona, America by Sentinel-2, and there are four spectral bands (Band2,
+        Band3, Band4, Band8) with a spatial resolution of 30 m in each temporal node. 
+        The data size is 600×600×4×6.
+
+
+These datasets are download from https://earthengine.google.com/.
+
+Please cite our papers if the dataset is useful for you. Thank you!
+
+@article{zou2023spectral,
+  title={Spectral-Temporal Low-Rank Regularization with Deep Prior for Thick Cloud Removal},
+  author={Zou, Zhentao and Chen, Lin and Jiang, Xue},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
+}
